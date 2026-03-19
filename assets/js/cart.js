@@ -65,8 +65,10 @@ function finalizarCompra() {
     detalleBoleta += `\n--------------------------\n`;
     detalleBoleta += `TOTAL PAGADO: $${total}\n`;
     detalleBoleta += `MEDIO DE PAGO: EFECTIVO\n`;
-     detalleBoleta += `FECHA: 19-03-2026\n`;
-    detalleBoleta += `\n¡Gracias por tu compra en \nC A F É c a f é !`;
+    detalleBoleta += `FECHA: 19-03-2026\n`;
+    detalleBoleta += `\n¡Gracias por tu compra!\n`;
+    detalleBoleta += `\nC A F É c a f é\n`;
+    
 
     alert(detalleBoleta);
 
